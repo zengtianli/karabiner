@@ -1,0 +1,66 @@
+{
+	"title": "Cmd+H, Cmd+Opt+H, and Cmd+Ctrl+H Modifications",
+	"rules": [
+		{
+			"description": "Custom modifications for cmd+h combinations",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "h",
+						"modifiers": {
+							"mandatory": [
+								"command"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "delete_or_backspace"
+						}
+					]
+				},
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "h",
+						"modifiers": {
+							"mandatory": [
+								"command",
+								"option"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "delete_or_backspace",
+							"modifiers": [
+								"option"
+							]
+						}
+					]
+				},
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "h",
+						"modifiers": {
+							"mandatory": [
+								"command",
+								"control"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "delete_or_backspace",
+							"modifiers": [
+								"command"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
