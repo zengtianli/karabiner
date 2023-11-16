@@ -237,7 +237,7 @@
                         ]
                     },
                     {
-                        "description": "Map Escape to Shift+Escape in Arc",
+                        "description": "Map Escape to hyper+Escape in Arc",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -260,7 +260,9 @@
                                     {
                                         "key_code": "escape",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -269,7 +271,7 @@
                         ]
                     },
                     {
-                        "description": "Map Escape to Shift+Escape in Notes",
+                        "description": "Map Escape to hyper+Escape in Notes",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -292,7 +294,9 @@
                                     {
                                         "key_code": "escape",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -301,7 +305,7 @@
                         ]
                     },
                     {
-                        "description": "Map Escape to Shift+Escape in Wechat",
+                        "description": "Map Escape to hyper+Escape in Wechat",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -324,7 +328,9 @@
                                     {
                                         "key_code": "escape",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -333,7 +339,7 @@
                         ]
                     },
                     {
-                        "description": "Map Escape to Shift+Escape in DingTalk",
+                        "description": "Map Escape to hyper+Escape in DingTalk",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -356,7 +362,9 @@
                                     {
                                         "key_code": "escape",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -365,7 +373,7 @@
                         ]
                     },
                     {
-                        "description": "Map Escape to Shift+Escape in SideNotes",
+                        "description": "Map Escape to hyper+Escape in SideNotes",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -388,7 +396,9 @@
                                     {
                                         "key_code": "escape",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_shift",
+                                            "left_command",
+                                            "left_control"
                                         ]
                                     }
                                 ],
