@@ -1,5 +1,7 @@
 # Karabiner-Elements 配置文件集
 
+This is Ben's configure
+
 这个仓库包含了一系列为 macOS 上强大的键盘自定义工具 Karabiner-Elements 设计的配置文件。
 
 ## 概览
